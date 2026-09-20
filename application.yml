@@ -1,6 +1,6 @@
 spring:
     application:
-        name: Session12-Ex04
+        name: Session12-Ex05
 resilience4j:
     retry:
         instances:
