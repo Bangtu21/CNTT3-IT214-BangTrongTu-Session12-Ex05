@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: Session12-Ex04
+resilience4j:
+    retry:
+        instances:
+            ghtkClient:
+                maxAttempts: 3
+                waitDuration: 2s
+                retryExceptions:
+                    - java.util.concurrent.TimeoutException
